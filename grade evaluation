@@ -1,0 +1,25 @@
+# Welcome to first program of this series
+
+print("\t ####### Grade Evaluation ####### \t\n")
+
+name = input("Enter name of student : ") 
+#input function is used to take input from the user
+print(name)
+marks = int(input("Enter your marks : "))
+print(marks)
+print("\n")
+
+# We have simply sorted grades according to marks using if-elif-else conditions
+
+if marks < 60:
+    print("Dear " + name + " you have got F grade \n")
+elif marks >= 60 and marks < 70:
+    print("Dear " + name + " you have got D grade \n")
+elif marks >= 70 and marks < 80:
+    print("Dear " + name + " you have got C grade \n")
+elif marks >= 80 and marks < 90:
+    print("Dear " + name + " you have got B grade \n")
+elif marks >= 90 and marks <= 100:
+    print("Dear " + name + " you have got A grade \n")
+else :
+    print("Enter a valid marks choice")
