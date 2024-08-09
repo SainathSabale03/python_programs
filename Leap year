@@ -1,0 +1,17 @@
+
+print("\t ####### Leap Year ####### \t")
+
+year = int(input("Enter the year :\n"))
+print(year)
+# this function inputs a year which we have to check wheather leap or not
+
+if year % 4 == 0 and year % 100 != 0:
+    print( " given year is a leap year")
+
+
+elif year % 100 == 0 and year % 400 == 0:
+    print( " given year is a leap year")
+
+
+else :
+    print("given year is not a leap year")
