@@ -1,0 +1,13 @@
+def celsius_to_fahrenheit(celsius):
+    # Check if the temperature is above absolute zero
+    if celsius < -273.15:
+        return "Error: Temperature cannot be below absolute zero (-273.15°C)."
+    
+    # Convert Celsius to Fahrenheit
+    fahrenheit = (celsius * 9/5) + 32
+    return f"{celsius}°C is equal to {fahrenheit}°F."
+
+# Example usage:
+temperature_in_celsius = float(input("Enter the temperature in Celsius: "))
+result = celsius_to_fahrenheit(temperature_in_celsius)
+print(result)
