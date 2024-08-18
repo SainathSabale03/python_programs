@@ -1,0 +1,8 @@
+list = [1,2,3,4,5]
+total = 0
+
+for i in list:
+    total+=i
+    # print(total)          This will print all the values of addition
+    
+print(total)     #This will print only final sum of program
