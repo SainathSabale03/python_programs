@@ -1,0 +1,7 @@
+num = int(input("Enter the number :\n"))
+
+for i in range(1,11):
+    print(f"{num} x {i} = {num * i}")
+
+#This logic simple to find out the multiplication of numbers.
+# f is used as a string formating
