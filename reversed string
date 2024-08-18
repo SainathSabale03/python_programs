@@ -1,0 +1,7 @@
+mystring="sainath sabale"
+reverse = ""
+
+for i in mystring:
+    reverse = i + reverse  # it will simply adds reversed elements from mystring and makes it reversed string
+
+print(reverse)
