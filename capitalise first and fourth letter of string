@@ -1,0 +1,13 @@
+def old_macdonald(name):
+    
+    first_letter = name[0]
+    inbetween = name[1:3]
+    fourth_letter = name[4]
+    rest = name[4:]
+    
+    first_letter = first_letter.upper()
+    fourth_letter = fourth_letter.upper()
+   
+    return first_letter + inbetween + fourth_letter + rest
+
+old_macdonald("sainathsabale")
