@@ -1,0 +1,20 @@
+ def lesser_of_two_events(a,b):
+        if a%2 == 0 and b%2 ==0:
+            if a!=0 and b!= 0:
+                if a < b:
+                    return "a is lesser than b"
+                elif a == b:
+                    pass
+                else:
+                    return "b is lesser than a"
+            else:
+                pass
+        else:
+            if a>b:
+                return "a is greater than b and one of them is odd"
+            elif a == b:
+                pass
+            else:
+                return "b is greater than a and one of them is odd"
+            
+lesser_of_two_events(109,108)
