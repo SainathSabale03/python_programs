@@ -1,0 +1,10 @@
+def animal_crackers(text):
+    wordlist = text.split()    #split method is used to split the string into list
+    print(wordlist)
+    
+    first = wordlist[0]
+    second = wordlist[1]
+    
+    return first[0].lower()  == second[0].lower()
+
+animal_crackers("Sainath sabale")
