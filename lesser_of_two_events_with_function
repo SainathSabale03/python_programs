@@ -1,0 +1,9 @@
+ def lesser_of_two_events(a,b):
+        if a < b:
+            return "a is lesser than b"
+        elif a > b:
+            return "b is lesser than a"
+        else:
+             pass
+            
+lesser_of_two_events(100,10)
