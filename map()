@@ -1,0 +1,10 @@
+def splicer(mystring):
+    if len(mystring) %2 == 0:
+        return "EVEN"
+    else:
+        return  mystring[0]
+    
+names = ["Andy","Eve","Sally","Sauu "]
+
+#splicer(names)
+list(map(splicer,names))
