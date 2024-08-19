@@ -16,3 +16,13 @@ def sphere_volume(radius):
 radius = 9
 volume = sphere_volume(radius)
 print(f"The volume of a sphere with radius {radius} is {volume:.2f}")
+
+
+#Alternate method without using math library
+"""
+def vol(rad):
+    result = (4/3) * (3.14) * (rad ** 3)
+    return result
+
+vol(9)
+"""
