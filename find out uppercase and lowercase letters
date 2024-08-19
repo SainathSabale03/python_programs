@@ -1,0 +1,16 @@
+def up_low(s):
+    lowercase = 0
+    uppercase = 0
+    
+    for char in s :
+        if char.isupper():
+            uppercase += 1
+        elif char.islower():
+            lowercase += 1
+        else:
+            pass
+    print(f"Original string : {s}")
+    print(f" Total lowercase count {lowercase}")
+    print(f" Total uppercase count {uppercase}")
+
+up_low("Sainath Santosh Sabale Patil")
