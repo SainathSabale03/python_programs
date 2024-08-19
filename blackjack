@@ -1,0 +1,14 @@
+def blackjack(a,b,c):
+    sum = a+b+c
+    if (a<=11 and a>=1) and (b<=11 and b>=1) and (c<=11 and c>=1):
+        if sum <= 21:
+            return sum
+        elif sum > 21 and (a==11 or b==11 or c==11):
+            return (sum - 10)
+        elif sum > 21:
+            return "BUST"
+        else:
+            pass
+        
+blackjack(10,2,11)
+            
