@@ -1,0 +1,7 @@
+def user_choice():
+    choice = 'Wrong'
+    
+    while choice.isdigit()==False:
+        
+        choice = input("Please enter a number (0-10): ")
+    return int(choice)
